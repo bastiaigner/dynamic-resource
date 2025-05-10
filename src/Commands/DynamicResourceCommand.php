@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Bastiaigner\DynamicResource\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DynamicResourceCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'dynamic-resource';
 
     public $description = 'My command';
 
