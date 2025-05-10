@@ -2,9 +2,9 @@
 
 namespace Bastiaigner\DynamicResource\Tests;
 
+use Bastiaigner\DynamicResource\DynamicResourceServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Bastiaigner\DynamicResource\DynamicResourceServiceProvider;
 
 class TestCase extends Orchestra
 {

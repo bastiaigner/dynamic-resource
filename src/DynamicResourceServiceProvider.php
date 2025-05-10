@@ -2,9 +2,9 @@
 
 namespace Bastiaigner\DynamicResource;
 
+use Bastiaigner\DynamicResource\Commands\DynamicResourceCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Bastiaigner\DynamicResource\Commands\DynamicResourceCommand;
 
 class DynamicResourceServiceProvider extends PackageServiceProvider
 {
